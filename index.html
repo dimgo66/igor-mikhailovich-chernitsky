@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальный сайт Игоря Михайловича Черницкого - российского кинорежиссёра, сценариста, актёра, поэта-песенника и писателя. Фильмография, библиография, дискография и биография выдающегося мастера кинематографа.">
+    <meta name="keywords" content="Игорь Черницкий, Черницкий Игорь Михайлович, кинорежиссёр, сценарист, актёр, писатель, поэт, фильмография, биография, фильмы, кино, Россия, Союз кинематографистов">
+    <meta name="author" content="Игорь Михайлович Черницкий">
+    <meta property="og:title" content="Игорь Михайлович Черницкий - Кинорежиссёр, сценарист, актёр">
+    <meta property="og:description" content="Официальный сайт Игоря Михайловича Черницкого - российского кинорежиссёра, сценариста, актёра, поэта-песенника и писателя. Фильмография, библиография, дискография и биография выдающегося мастера кинематографа.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/4728.jpg">
+    <meta property="og:url" content="https://igor-chernitsky.ru">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="canonical" href="https://igor-chernitsky.ru">
+    <title>Игорь Михайлович Черницкий - Кинорежиссёр, сценарист, актёр</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Игорь Михайлович Черницкий",
+      "alternateName": "Черницкий Игорь Михайлович",
+      "jobTitle": ["Кинорежиссёр", "Сценарист", "Актёр", "Поэт-песенник", "Писатель"],
+      "birthDate": "1953-12-14",
+      "birthPlace": "Пермь, Россия",
+      "description": "Выдающийся российский кинорежиссёр, сценарист, актёр, поэт-песенник и писатель, чьё творчество охватывает множество жанров и форм искусства.",
+      "url": "https://igor-chernitsky.ru",
+      "sameAs": [
+        "https://www.kinopoisk.ru/name/280881/",
+        "https://www.kino-teatr.ru/kino/director/ros/4728/bio/"
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Союз кинематографистов России"
+        },
+        {
+          "@type": "Organization",
+          "name": "Союз писателей России"
+        }
+      ]
+    }
+    </script>
+    <style>
+        :root {
+            --gold: #D4AF37;
+            --dark-gold: #B8941F;
+            --charcoal: #2D2D2D;
+            --dark-charcoal: #1A1A1A;
+            --cream: #F5F5DC;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, var(--dark-charcoal) 0%, var(--charcoal) 100%);
+            color: var(--cream);
+        }
+        
+        .title-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://vmrucdn.servicecdn.ru/2022.09/original/6317a08f82682c39bb272a69.JPG');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        .gold-accent {
+            color: var(--gold);
+        }
+        
+        .gold-bg {
+            background-color: var(--gold);
+            color: var(--dark-charcoal);
+        }
+        
+        .card {
+            background: rgba(45, 45, 45, 0.9);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            border-color: var(--gold);
+            transform: translateY(-5px);
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-left: 2rem;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            background: var(--gold);
+            border-radius: 50%;
+        }
+        
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 1.2rem;
+            width: 2px;
+            height: calc(100% - 1rem);
+            background: linear-gradient(to bottom, var(--gold), transparent);
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+        
+        .photo-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .photo-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        .photo-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .photo-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            color: white;
+            padding: 1rem;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .photo-item:hover .photo-overlay {
+            transform: translateY(0);
+        }
+        
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(to right, transparent, var(--gold), transparent);
+            margin: 3rem 0;
+        }
+        
+        .filmography-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+        
+        .film-card {
+            background: rgba(45, 45, 45, 0.9);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .film-card:hover {
+            border-color: var(--gold);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);
+        }
+        
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .music-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        @media print {
+            body {
+                background: white !important;
+                color: black !important;
+            }
+            .hero-section {
+                background-attachment: scroll !important;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Фильмография Игоря Черницкого",
+      "itemListElement": [
+        {
+          "@type": "Movie",
+          "name": "Юнкера",
+          "dateCreated": "2007",
+          "director": "Игорь Черницкий",
+          "genre": ["Драма", "Экранизация"]
+        },
+        {
+          "@type": "Movie",
+          "name": "Подпоручикъ Ромашовъ",
+          "dateCreated": "2012",
+          "director": "Игорь Черницкий",
+          "genre": ["Драма", "Экранизация"]
+        },
+        {
+          "@type": "Movie",
+          "name": "Прощальное эхо",
+          "dateCreated": "2003",
+          "director": "Игорь Черницкий",
+          "genre": ["Драма", "Сериал"]
+        }
+      ]
+    }
+    </script>
+</head>
+<body itemscope itemtype="http://schema.org/Person">
+    <!-- Hero Section -->
+    <meta itemprop="name" content="Игорь Михайлович Черницкий">
+    <meta itemprop="jobTitle" content="Кинорежиссёр, сценарист, актёр, поэт-песенник, писатель">
+    <meta itemprop="birthDate" content="1953-12-14">
+    <meta itemprop="url" content="https://igor-chernitsky.ru">
+    <section class="hero-section min-h-screen flex items-center justify-center text-center">
+        <div class="container mx-auto px-6">
+            <h1 class="title-font text-6xl md:text-8xl font-bold mb-6 gold-accent">
+                Игорь Михайлович<br>Черницкий
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                Кинорежиссёр • Сценарист • Актёр • Поэт-песенник • Писатель
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 text-sm">
+                <span class="gold-bg px-4 py-2 rounded-full">Член Союза кинематографистов</span>
+                <span class="gold-bg px-4 py-2 rounded-full">Член Союза писателей России</span>
+                <span class="gold-bg px-4 py-2 rounded-full">Лауреат международных кинофестивалей</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="title-font text-4xl md:text-5xl font-bold text-center mb-12 gold-accent">
+                <i class="fas fa-user-circle mr-4"></i>Биография
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <div class="card rounded-lg p-8">
+                    <img src="images/4728.jpg" alt="Игорь Михайлович Черницкий - российский кинорежиссёр, сценарист, актёр" class="w-full h-96 object-cover rounded-lg mb-6" itemprop="image">
+                    <p class="text-lg leading-relaxed">
+                        <strong class="gold-accent">Черницкий Игорь Михайлович</strong> (Черницкий-Корольчук И.М., Chernitskiy Igor) родился 14 декабря 1953 года в Перми. 
+                        Выдающийся российский кинорежиссёр, сценарист, актёр, поэт-песенник и писатель, чьё творчество охватывает множество жанров и форм искусства.
+                    </p>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold gold-accent mb-2">1975 год</h3>
+                        <p>Окончание русского отделения актёрского факультета Киевского института театрального искусства им. Карпенко-Карого</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold gold-accent mb-2">1975-1983 годы</h3>
+                        <p>Служба актером в Киевском государственном академическом театре русской драмы имени Леси Украинки</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold gold-accent mb-2">1983-1989 годы</h3>
+                        <p>Актер Театра-студии киноактера при киностудии им. А. Довженко</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold gold-accent mb-2">1988-2004 годы</h3>
+                        <p>Режиссёр-постановщик Национальной киностудии художественных фильмов имени Александра Довженко</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold gold-accent mb-2">1999 год</h3>
+                        <p>Окончание Высших Литературных Курсов при Московском Литературном институте им. А.М. Горького</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold gold-accent mb-2">2005 год</h3>
+                        <p>Создание киностудии «ЧЕРОМАФИЛЬМ» — режиссёр-постановщик, генеральный продюсер, художественный руководитель</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold gold-accent mb-2">2014 год</h3>
+                        <p>Благодарность Президента РФ за достигнутые трудовые успехи, заслуги в гуманитарной сфере и активную общественную деятельность</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Photo Gallery Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="title-font text-4xl md:text-5xl font-bold text-center mb-12 gold-accent">
+                <i class="fas fa-camera mr-4"></i>Фотогалерея
+            </h2>
+            
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="images/6317a08f82682c39bb272a69.JPG" alt="Игорь Михайлович Черницкий - современное фото известного российского кинорежиссёра" class="w-full h-80 object-cover">
+                    <div class="photo-overlay">
+                        <h3 class="font-semibold">Режиссёр Игорь Черницкий</h3>
+                        <p class="text-sm opacity-90">Современное фото мастера кинематографа</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="images/453488.jpg" alt="Игорь Михайлович Черницкий в театральные годы работы в Киевском театре русской драмы" class="w-full h-80 object-cover object-top">
+                    <div class="photo-overlay">
+                        <h3 class="font-semibold">Театральные годы</h3>
+                        <p class="text-sm opacity-90">Период работы в Киевском театре русской драмы</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="images/720_6317a0d682682c39bb272b74.jpg" alt="Интервью с кинорежиссёром Игорем Черницким о патриотическом кино" class="w-full h-80 object-cover">
+                    <div class="photo-overlay">
+                        <h3 class="font-semibold">В работе</h3>
+                        <p class="text-sm opacity-90">Интервью о патриотическом кино</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="images/KUffztS4sww3Ocr4t2fiFAR2sCr.jpg" alt="Официальный портрет кинорежиссёра Игоря Черницкого" class="w-full h-80 object-cover">
+                    <div class="photo-overlay">
+                        <h3 class="font-semibold">Официальный портрет</h3>
+                        <p class="text-sm opacity-90">Игорь Черницкий - режиссёр и сценарист</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="images/745415.jpg" alt="Игорь Черницкий на съёмочной площадке в процессе работы над фильмом" class="w-full h-80 object-cover">
+                    <div class="photo-overlay">
+                        <h3 class="font-semibold">На съёмочной площадке</h3>
+                        <p class="text-sm opacity-90">Режиссёр за работой</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="images/igor_chernitsky_and_nikolay_romanov.jpg" alt="Игорь Черницкий с коллегой Николаем Романовым - творческий дуэт режиссёра и актёра" class="w-full h-80 object-cover">
+                    <div class="photo-overlay">
+                        <h3 class="font-semibold">С Николаем Романовым</h3>
+                        <p class="text-sm opacity-90">Творческий дуэт: режиссёр и актёр</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Filmography Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="title-font text-4xl md:text-5xl font-bold text-center mb-12 gold-accent">
+                <i class="fas fa-film mr-4"></i>Фильмография
+            </h2>
+            
+            <div class="filmography-grid">
+                <div class="film-card">
+                    <div class="flex">
+                        <img src="images/8137.jpg" alt="Постер к фильму Юнкера режиссёра Игоря Черницкого" class="w-32 h-48 object-cover">
+                        <div class="p-6 flex-1">
+                            <h3 class="text-2xl font-bold gold-accent mb-2">Юнкера</h3>
+                            <p class="text-sm opacity-70 mb-3">12 серий, 2007 г. / Полнометражный фильм, 2009 г.</p>
+                            <p class="text-sm mb-4">Драматический сериал о жизни военного училища в дореволюционной России. Экранизация по мотивам произведений А.И. Куприна.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-xs bg-gray-700 px-2 py-1 rounded">Драма</span>
+                                <span class="text-xs bg-gray-700 px-2 py-1 rounded">Экранизация</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="film-card">
+                    <div class="flex">
+                        <img src="images/105283.jpg" alt="Постер к фильму Подпоручикъ Ромашовъ режиссёра Игоря Черницкого" class="w-32 h-48 object-cover">
+                        <div class="p-6 flex-1">
+                            <h3 class="text-2xl font-bold gold-accent mb-2">Подпоручикъ Ромашовъ</h3>
+                            <p class="text-sm opacity-70 mb-3">2012 г., 140 минут</p>
+                            <p class="text-sm mb-4">По мотивам повести А.И. Куприна "Поединок". История молодого офицера и его духовных исканий.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="text-xs bg-gray-700 px-2 py-1 rounded">Драма</span>
+                                <span class="text-xs bg-gray-700 px-2 py-1 rounded">Экранизация</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="film-card">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold gold-accent mb-2">Прощальное эхо</h3>
+                        <p class="text-sm opacity-70 mb-3">12 серий, 2003 г.</p>
+                        <p class="text-sm mb-4">Многосерийный телевизионный фильм о судьбах людей в переломные моменты истории.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-700 px-2 py-1 rounded">Драма</span>
+                            <span class="text-xs bg-gray-700 px-2 py-1 rounded">Сериал</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="film-card">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold gold-accent mb-2">В той области небес...</h3>
+                        <p class="text-sm opacity-70 mb-3">2 серии, 1992 г.</p>
+                        <p class="text-sm mb-4">Двухсерийный художественный фильм режиссёра Игоря Черницкого.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-700 px-2 py-1 rounded">Драма</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="film-card">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold gold-accent mb-2">Маменькин сынок</h3>
+                        <p class="text-sm opacity-70 mb-3">2 серии, 2010 г.</p>
+                        <p class="text-sm mb-4">Двухсерийный телевизионный фильм о семейных отношениях и взрослении.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-700 px-2 py-1 rounded">Драма</span>
+                            <span class="text-xs bg-gray-700 px-2 py-1 rounded">Семейный</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="film-card">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold gold-accent mb-2">Ивин А.</h3>
+                        <p class="text-sm opacity-70 mb-3">1990 г.</p>
+                        <p class="text-sm mb-4">Дебютная режиссёрская работа Игоря Черницкого.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-700 px-2 py-1 rounded">Дебют</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Film Stills -->
+            <div class="mt-12">
+                <h3 class="text-2xl font-bold text-center mb-8 gold-accent">Кадры из фильмов</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="photo-item">
+                        <img src="images/1545953.jpg" alt="Кадр из фильма Подпоручикъ Ромашовъ режиссёра Игоря Черницкого по мотивам произведения А.И. Куприна" class="w-full h-48 object-cover">
+                        <div class="photo-overlay">
+                            <h4 class="font-semibold">Подпоручикъ Ромашовъ</h4>
+                            <p class="text-sm opacity-90">Сцена из фильма по Куприну</p>
+                        </div>
+                    </div>
+                    
+                    <div class="photo-item">
+                        <img src="images/1545949.jpg" alt="Кадр из фильма Подпоручикъ Ромашовъ режиссёра Игоря Черницкого - драматическая сцена" class="w-full h-48 object-cover">
+                        <div class="photo-overlay">
+                            <h4 class="font-semibold">Подпоручикъ Ромашовъ</h4>
+                            <p class="text-sm opacity-90">Драматическая сцена</p>
+                        </div>
+                    </div>
+                    
+                    <div class="photo-item">
+                        <img src="images/1545954.jpg" alt="Кадр из фильма Подпоручикъ Ромашовъ режиссёра Игоря Черницкого - атмосфера дореволюционной России" class="w-full h-48 object-cover">
+                        <div class="photo-overlay">
+                            <h4 class="font-semibold">Подпоручикъ Ромашовъ</h4>
+                            <p class="text-sm opacity-90">Атмосфера дореволюционной России</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Bibliography Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="title-font text-4xl md:text-5xl font-bold text-center mb-12 gold-accent">
+                <i class="fas fa-book mr-4"></i>Библиография
+            </h2>
+            
+            <div class="books-grid">
+                <div class="card rounded-lg p-6">
+                    <div class="flex items-start gap-4">
+                        <i class="fas fa-book-open text-3xl gold-accent mt-2"></i>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">«Мы последняя нежность войны»</h3>
+                            <p class="text-sm opacity-70 mb-2">2017, сборник сценариев</p>
+                            <p class="text-sm mb-3">Издательство «У Никитских ворот»</p>
+                            <p class="text-sm">Сборник киносценариев выдающегося режиссёра, включающий произведения разных периодов творчества.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card rounded-lg p-6">
+                    <div class="flex items-start gap-4">
+                        <i class="fas fa-music text-3xl gold-accent mt-2"></i>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">«Мелодия грозы»</h3>
+                            <p class="text-sm opacity-70 mb-2">2016, сборник песен</p>
+                            <p class="text-sm mb-3">Издательство «У Никитских ворот»</p>
+                            <p class="text-sm">Поэтические тексты песен, ставших основой для музыкальных альбомов.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card rounded-lg p-6">
+                    <div class="flex items-start gap-4">
+                        <i class="fas fa-heart text-3xl gold-accent mt-2"></i>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">«Жила-была любовь под соломенной крышей»</h3>
+                            <p class="text-sm opacity-70 mb-2">2012, художественно-документальный роман</p>
+                            <p class="text-sm mb-3">Издательство «У Никитских ворот», тираж 2000 экз.</p>
+                            <p class="text-sm">О людях ХХ века - глубокое исследование человеческих судеб.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card rounded-lg p-6 border-2 border-gold">
+                    <div class="flex items-start gap-4">
+                        <i class="fas fa-star text-3xl gold-accent mt-2"></i>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2 gold-accent">«Пришельцы, или Когда падают звёзды»</h3>
+                            <p class="text-sm opacity-70 mb-2">Роман в журнале «Вторник»</p>
+                            <p class="text-sm mb-3">№66-70 (2023-2024)</p>
+                            <p class="text-sm mb-3">Современное произведение о судьбе и выборе человека в изменяющемся мире.</p>
+                            <a href="https://www.vtornik.online/autors/черницкий-" class="inline-flex items-center text-sm gold-accent hover:text-yellow-300 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>
+                                Читать в журнале «Вторник»
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card rounded-lg p-6">
+                    <div class="flex items-start gap-4">
+                        <i class="fas fa-scroll text-3xl gold-accent mt-2"></i>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">«Айэмэнэкта»</h3>
+                            <p class="text-sm opacity-70 mb-2">Повесть</p>
+                            <p class="text-sm mb-3">Журнал «Москва», ноябрь 2003 г.</p>
+                            <p class="text-sm">Философская повесть о поиске смысла жизни.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card rounded-lg p-6">
+                    <div class="flex items-start gap-4">
+                        <i class="fas fa-pen-fancy text-3xl gold-accent mt-2"></i>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">«Врач вечной молодости»</h3>
+                            <p class="text-sm opacity-70 mb-2">Сборник рассказов</p>
+                            <p class="text-sm">Короткие прозаические произведения, раскрывающие различные грани человеческой натуры.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Discography Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="title-font text-4xl md:text-5xl font-bold text-center mb-12 gold-accent">
+                <i class="fas fa-compact-disc mr-4"></i>Дискография
+            </h2>
+            
+            <p class="text-center text-lg mb-12 max-w-3xl mx-auto">
+                На стихи Игоря Черницкого написаны песни, которые вошли в многочисленные музыкальные альбомы
+            </p>
+            
+            <div class="music-grid">
+                <div class="card rounded-lg p-6 text-center">
+                    <i class="fas fa-compact-disc text-4xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">«Я вернусь»</h3>
+                    <p class="text-sm opacity-70 mb-2">2001, CD-альбом</p>
+                    <p class="text-sm">Лирические песни на стихи поэта</p>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <i class="fas fa-pray text-4xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">«Пред образом»</h3>
+                    <p class="text-sm opacity-70 mb-2">2001, CD-альбом</p>
+                    <p class="text-sm">Духовная лирика и размышления</p>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <i class="fas fa-medal text-4xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">«Офицерский вальс»</h3>
+                    <p class="text-sm opacity-70 mb-2">2003, CD-альбом</p>
+                    <p class="text-sm">Военная лирика и патриотические песни</p>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <i class="fas fa-flag text-4xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">«Живи, страна!»</h3>
+                    <p class="text-sm opacity-70 mb-2">2003, CD-альбом</p>
+                    <p class="text-sm">Гражданская лирика и песни о Родине</p>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <i class="fas fa-theater-masks text-4xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">«За кремовыми шторами»</h3>
+                    <p class="text-sm opacity-70 mb-2">2010, DVD-альбом</p>
+                    <p class="text-sm">Вечер офицерского романса</p>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <i class="fas fa-microphone text-4xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">«Поёт Николай Романов»</h3>
+                    <p class="text-sm opacity-70 mb-2">2010, DVD-альбом</p>
+                    <p class="text-sm">Исполнение песен на стихи И. Черницкого</p>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <i class="fas fa-heart text-4xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">«Песня на два голоса»</h3>
+                    <p class="text-sm opacity-70 mb-2">2016, CD-альбом</p>
+                    <p class="text-sm">Дуэтные композиции</p>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <i class="fas fa-moon text-4xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">«Ночной романс»</h3>
+                    <p class="text-sm opacity-70 mb-2">2016, CD-альбом</p>
+                    <p class="text-sm">Лирические композиции</p>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <i class="fas fa-cloud-rain text-4xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">«Мелодия грозы»</h3>
+                    <p class="text-sm opacity-70 mb-2">2016, CD-альбом</p>
+                    <p class="text-sm">Одноимённый альбом к сборнику песен</p>
+                </div>
+                
+                <div class="card rounded-lg p-6 text-center">
+                    <i class="fas fa-video text-4xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">«Киноконцерт»</h3>
+                    <p class="text-sm opacity-70 mb-2">2016, DVD-альбом</p>
+                    <p class="text-sm">Концертное исполнение киносаундтреков</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Links and Contacts Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="title-font text-4xl md:text-5xl font-bold text-center mb-12 gold-accent">
+                <i class="fas fa-link mr-4"></i>Ссылки на произведения
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card rounded-lg p-6">
+                    <i class="fas fa-building text-2xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Киностудия ЧЕРОМАФИЛЬМ</h3>
+                    <p class="text-sm mb-4">Официальный сайт киностудии, основанной И.М. Черницким</p>
+                    <a href="http://cheroma-film.ru" class="text-sm gold-accent hover:text-yellow-300 transition-colors">
+                        <i class="fas fa-external-link-alt mr-2"></i>cheroma-film.ru
+                    </a>
+                </div>
+                
+                <div class="card rounded-lg p-6">
+                    <i class="fas fa-star text-2xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">КиноПоиск</h3>
+                    <p class="text-sm mb-4">Фильмография и рейтинги фильмов режиссёра</p>
+                    <a href="https://www.kinopoisk.ru/name/280881/" class="text-sm gold-accent hover:text-yellow-300 transition-colors">
+                        <i class="fas fa-external-link-alt mr-2"></i>kinopoisk.ru
+                    </a>
+                </div>
+                
+                <div class="card rounded-lg p-6">
+                    <i class="fas fa-theater-masks text-2xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Кино-Театр.Ру</h3>
+                    <p class="text-sm mb-4">Подробная биография и фильмография</p>
+                    <a href="https://www.kino-teatr.ru/kino/director/ros/4728/bio/" class="text-sm gold-accent hover:text-yellow-300 transition-colors">
+                        <i class="fas fa-external-link-alt mr-2"></i>kino-teatr.ru
+                    </a>
+                </div>
+                
+                <div class="card rounded-lg p-6">
+                    <i class="fas fa-book-reader text-2xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Журнал «Вторник»</h3>
+                    <p class="text-sm mb-4">Публикации произведений писателя</p>
+                    <a href="https://www.vtornik.online/autors/черницкий-" class="text-sm gold-accent hover:text-yellow-300 transition-colors">
+                        <i class="fas fa-external-link-alt mr-2"></i>vtornik.online
+                    </a>
+                </div>
+                
+                <div class="card rounded-lg p-6">
+                    <i class="fas fa-film text-2xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Афиша-Кино</h3>
+                    <p class="text-sm mb-4">Информация о фильмах режиссёра</p>
+                    <a href="https://www.afisha.ru/person/igor-chernickiy/" class="text-sm gold-accent hover:text-yellow-300 transition-colors">
+                        <i class="fas fa-external-link-alt mr-2"></i>afisha.ru
+                    </a>
+                </div>
+                
+                <div class="card rounded-lg p-6">
+                    <i class="fas fa-trophy text-2xl gold-accent mb-4"></i>
+                    <h3 class="text-lg font-bold mb-2">Премия «Золотое перо Руси»</h3>
+                    <p class="text-sm mb-4">Информация о наградах писателя</p>
+                    <a href="https://perorusi.ru/about-2/обладатели-премии/" class="text-sm gold-accent hover:text-yellow-300 transition-colors">
+                        <i class="fas fa-external-link-alt mr-2"></i>perorusi.ru
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-gray-700">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="title-font text-2xl font-bold gold-accent mb-4">Игорь Михайлович Черницкий</h3>
+            <p class="text-sm opacity-70 mb-6">
+                Кинорежиссёр • Сценарист • Актёр • Поэт-песенник • Писатель<br>
+                Член Союза кинематографистов, Союза театральных деятелей, Союза писателей России
+            </p>
+            <div class="flex justify-center space-x-6 text-sm">
+                <span>Родился: 14 декабря 1953 г., Пермь</span>
+                <span>•</span>
+                <span>Киностудия «ЧЕРОМАФИЛЬМ»</span>
+                <span>•</span>
+                <span>Лауреат международных кинофестивалей</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
