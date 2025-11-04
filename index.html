@@ -196,6 +196,18 @@
             gap: 1.5rem;
         }
         
+        /* Adjust hero image position on very wide screens to keep faces visible */
+        @media (min-width: 1280px) {
+            .hero-section {
+                background-position: center 20%;
+            }
+        }
+        @media (min-width: 1536px) {
+            .hero-section {
+                background-position: center 15%;
+            }
+        }
+        
         @media print {
             body {
                 background: white !important;
